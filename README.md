@@ -1,4 +1,4 @@
-```markdown
+
 # Img to Pencil Sketch
 
 A Python project that converts images into pencil sketches using OpenCV.
@@ -57,5 +57,5 @@ The resulting pencil sketch will be saved as `sketch_image.png` in the `results`
 If you'd like to contribute to this project, feel free to fork the repository and submit pull requests with improvements or bug fixes.
 
 
-```
+
 
