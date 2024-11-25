@@ -1,4 +1,3 @@
-
 # Img to Pencil Sketch
 
 A Python project that converts images into pencil sketches using OpenCV.
@@ -42,7 +41,7 @@ python main.py
 
 When prompted, either drag and drop an image file into the terminal or manually enter the full path to the image.
 
-The program will generate a pencil sketch of the image and save it to the `results` folder in the project directory.
+The program will generate a pencil sketch of the image and save it to a specified local path. You can choose the location by entering it when prompted.
 
 ### Example
 
@@ -50,12 +49,19 @@ The program will generate a pencil sketch of the image and save it to the `resul
 Drag and drop the picture here or write its path manually: C:\Users\iAt™\OneDrive\Bureau\pic.jpg
 ```
 
-The resulting pencil sketch will be saved as `sketch_image.png` in the `results` folder.
+You will also be prompted to enter the local path where you'd like to save the resulting sketch. For example:
+
+```bash
+Enter the path to save the sketch (e.g., C:\Users\iAt™\OneDrive\Bureau\results\sketch_image.png):
+```
+
+The resulting pencil sketch will be saved at the specified location.
 
 ## Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository and submit pull requests with improvements or bug fixes.
 
+### Note
+Make sure to create the `results` directory or specify an existing directory path where you want to save the sketches before running the script.
 
-
-
+This documentation now reflects the changes to allow users to specify a local path for saving the resulting sketches. If you need further modifications, let me know!
